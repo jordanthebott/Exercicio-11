@@ -16,5 +16,22 @@ namespace Exercicio_11
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 newForm = new Form3();
+            newForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 form1kkk = new Form1();
+            form1kkk.Show();
+        }
     }
 }

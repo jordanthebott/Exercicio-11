@@ -16,5 +16,11 @@ namespace Exercicio_11
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 form2kkk = new Form2();
+            form2kkk.Show();
+        }
     }
 }

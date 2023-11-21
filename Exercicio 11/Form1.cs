@@ -27,13 +27,13 @@ namespace Exercicio_11
             FontDialog fontDialog = new FontDialog();
             if (fontDialog.ShowDialog() == DialogResult.OK)
             {
-                label1.Font = fontDialog.Font;
+              label1.Font = fontDialog.Font;
             }
             ColorDialog colorDialog = new ColorDialog();
             if (colorDialog.ShowDialog() == DialogResult.OK)
             {
-                label1.ForeColor = colorDialog.Color;
-            }
+              label1.ForeColor = colorDialog.Color;
+            }           
         }
 
         private void Form1_Load(object sender, EventArgs e)

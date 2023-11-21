@@ -19,7 +19,7 @@ namespace Exercicio_11
 
         private void formatarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void corETipoDeLetraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -34,6 +34,17 @@ namespace Exercicio_11
             {
                 label1.ForeColor = colorDialog.Color;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.Show();
         }
     }
 }

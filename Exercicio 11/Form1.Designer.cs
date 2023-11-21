@@ -32,6 +32,7 @@
             menuStrip1 = new MenuStrip();
             formatarToolStripMenuItem = new ToolStripMenuItem();
             corETipoDeLetraToolStripMenuItem = new ToolStripMenuItem();
+            button1 = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -65,20 +66,32 @@
             // corETipoDeLetraToolStripMenuItem
             // 
             corETipoDeLetraToolStripMenuItem.Name = "corETipoDeLetraToolStripMenuItem";
-            corETipoDeLetraToolStripMenuItem.Size = new Size(180, 22);
+            corETipoDeLetraToolStripMenuItem.Size = new Size(168, 22);
             corETipoDeLetraToolStripMenuItem.Text = "Cor e tipo de letra";
             corETipoDeLetraToolStripMenuItem.Click += corETipoDeLetraToolStripMenuItem_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(674, 372);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 3;
+            button1.Text = "pagina 2";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -90,5 +103,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem formatarToolStripMenuItem;
         private ToolStripMenuItem corETipoDeLetraToolStripMenuItem;
+        private Button button1;
     }
 }

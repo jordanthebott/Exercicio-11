@@ -21,6 +21,7 @@ namespace Exercicio_11
         {
             Form2 form2kkk = new Form2();
             form2kkk.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -26,12 +26,14 @@ namespace Exercicio_11
         {
             Form3 newForm = new Form3();
             newForm.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form1 form1kkk = new Form1();
             form1kkk.Show();
+            this.Close();
         }
     }
 }
